@@ -1,0 +1,13 @@
+			#contenidointerno{
+				float:left;
+				width: 96%;
+				height: 49.2%;
+				background-color: white;
+				padding: 2%;
+				text-align: center;
+			}
+			
+			td{
+				width:25%;
+				height:200px;
+			}

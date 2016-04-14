@@ -1,0 +1,43 @@
+#contenidointerno{
+      	float:left;
+      	width: 96%;
+      	height: 49.2%;
+      	background-color: white;
+      	padding: 2%;
+	  }
+      
+      h1{
+      	font-size:200%;
+     	text-align:center;
+     	font-style:normal;
+        font-family:"Arial";
+        color:#0B610B;
+      }
+      
+      h2{
+      	text-align:left;
+      	font-style:normal;
+        font-family:"Arial";
+      }
+      
+      h3{
+      	text-align:left;
+      	font-style:normal;
+        font-family:"Arial";
+      }
+     h4{
+      	text-align:left;
+      	font-style:normal;
+        font-family:"Arial";
+      }
+ 
+      p{
+      	font-style:normal;
+        font-family:"Arial";
+        text-align:justify;
+      }
+      
+      .p1{
+      	
+      	font-size: 80%;
+      }

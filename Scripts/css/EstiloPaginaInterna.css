@@ -1,0 +1,50 @@
+#contenidointerno{
+      	float:left;
+      	width: 96%;
+      	height: 49.2%;
+      	background-color: white;
+      	padding: 2%;
+	  }
+      
+      h1{
+      	font-size:200%;
+     	text-align:center;
+     	font-style:normal;
+        font-family:"Arial";
+        color:#0B610B;
+        color:red;
+      }
+      
+      h2{
+      	text-align:center;
+      	font-style:normal;
+        font-family:"Arial";
+      }
+      
+      p{
+      	font-style:normal;
+        font-family:"Arial";
+        text-align:justify;
+      }
+      
+      .p1{
+      	
+      	font-size: 80%;
+      }
+
+      .img1{
+      	float:left;
+      	padding-right: 2em;
+      	padding-left: 1em;
+      	padding-top: 1em;
+      	padding-bottom: 1em;
+      }
+      
+      #bg{
+      	position: fixed;
+      	z-index: -1;
+      	top: 0;
+      	left: 0;
+      	width: 100%;
+      	height: 100%;
+      	}

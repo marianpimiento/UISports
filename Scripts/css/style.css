@@ -1,0 +1,96 @@
+
+nav {
+	height: 40px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	color: #FFF;
+	background-color:#5BBF21;
+	position: relative;
+	display: table-caption;
+} 
+html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+  width: 250px; /*ancho del menu deplegable*/
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu { 
+  display: block;
+  position: relative;
+  float:left;
+  padding-left: 8%
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+	border-right: 10%;
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 50;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.sf-menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+ul#nav ul {
+	background-color: #090; /*ESte es el color del menu desplegable*/
+	margin-top: 0px;
+	padding-bottom: 0px;
+	background-color: rgba(58,138,42, 0.8);
+}
+
+ul#nav li a { 
+  padding:3px 20px 3px 20px;
+  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+  text-shadow: 2px 2px #000;
+  text-decoration: none;
+  color: #FFF;
+  margin-right: 2px;
+}
+
+ul#nav ul li a:hover,ul#nav ul li a:focus { 
+  color: #222;
+  text-shadow: none;
+}

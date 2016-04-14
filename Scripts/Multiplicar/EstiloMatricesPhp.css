@@ -1,0 +1,32 @@
+table{
+      	border-collapse:collapse;
+      	border: 1px solid black;
+		alignment-adjust:central;
+		font-family:Arial;
+		font-size:14px;
+		text-align:center;
+      }
+      
+      table tr{
+      	border: 2px solid #ef693a;
+      }
+	  
+      table td{
+      	border: inherit;
+      	height: 15px;
+      	width: 50px;
+      	text-align: center;      	
+      }
+      
+      tr:hover{
+      	background-color:#7df0ed;
+      }
+      
+      td:hover{
+      	background-color:#9AFE2E;
+      } 
+	  
+	  p{
+      	font-style:normal;
+        font-family:"Arial";
+      }

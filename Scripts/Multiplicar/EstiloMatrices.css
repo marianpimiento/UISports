@@ -1,0 +1,29 @@
+table{
+      	
+      	border: 0;
+		alignment-adjust:central;
+		font-family:Arial;
+		font-size:14px;
+      }
+	  
+	  h1 {
+		  font-size:1.2em;
+		  color:red;
+		  font-weight:bold;
+		  text-decoration:underline;
+		  text-align:center;
+		  font-style:normal;
+		  font-family:"Arial";
+		  }
+		  
+      h2 {
+		  font-size:1.1em;
+		  color:blue;
+		  font-weight:bold;
+		  text-decoration:none;
+		  text-align:center;
+		  }
+	 
+	  #contenedor{
+      	text-align: center;
+      }

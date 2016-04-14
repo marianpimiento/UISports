@@ -1,0 +1,425 @@
+﻿     /*Esitlo de Sombra*/
+	  nav, #banner, #contenido, #pie, #titulo{
+		  -moz-box-shadow: 3px 3px 4px #111;
+		  -webkit-box-shadow: 3px 3px 4px #111;
+		  box-shadow: 3px 3px 4px #111; -ms-filter:'progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color=#111111)';
+		  filter: 'progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#111111')';
+	  }
+	  
+	  /*Estilo de div - Distribución página*/
+	  *{
+      	padding:0;
+      	margin:0;
+      }
+      
+      #wrapper{
+      	margin: auto;
+      	width:90% ;
+      	height:120%;
+      	margin-top:1%;
+      	display:table;
+      }
+      
+      #titulo{
+      	width:100%;
+      	height:20%;
+      	padding:0%;
+      	background-color: white;
+      	border-top-left-radius: 20px;
+      	border-top-right-radius: 20px;
+        position: relative;
+        display:table-caption;
+      }
+      
+      #banner{
+      	width: 100%;
+      	height: 20%;
+      	background-color: green;
+      	display:table-caption;
+      }
+      #intermedio{
+      	display: table-row;
+      }
+      #menusecundario{
+      	width: 19.8%;
+      	height: 80%;
+      	border: 1px solid;
+      	background-color: #D9D9D9;
+      	display: table-cell;
+      }
+            
+      #contenido{
+      	width: 80%;
+      	height: 80%;
+      	background-color: white;
+      	display: table-cell;
+      }
+            
+      #pie{
+      	clear:both;
+      	width:88%;
+      	height:6.8%;
+      	background-color: #A4A4A4;
+      	margin: 0 auto;
+      	border-bottom-left-radius: 10px;
+      	border-bottom-right-radius: 10px;
+      	padding: 1%;
+      }
+      
+      h1{
+      	font-size:200%;
+     	text-align: center;
+     	font-style: normal;
+        font-family:"Arial";
+      }
+      
+      h2{
+      	text-align: center;
+      	font-style:normal;
+        font-family:"Arial";
+      }
+      
+      h3{
+      text-align: center;
+      font-family: "Arial";
+      color: black;	 	
+      }
+      
+      p{
+      	font-style:normal;
+        font-family:"Arial";
+      }
+      
+      .img1{
+      	float:left;
+      }
+      
+      .img2{
+      	float:right;
+      }
+      
+      .img3{
+      	float:center;
+      }
+      
+      #bg{
+      	position: fixed; 
+      	z-index: -1;
+      	top: 0;
+      	left: 0;
+      	width: 100%;
+      	height: 100%;
+      }
+
+/*Estilo del formulario y mensaje*/
+ 			body {
+
+				background: #FAFAEB;
+				color: #262626;
+				font-family: Arial, san-serif;
+			}
+
+			#contact-form {
+	background-color: #74e340;
+	width: 800px;
+	padding: 20px;
+	border-radius: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+			}
+
+			#contact-form input, #contact-form select, #contact-form textarea, #contact-form label {
+				font-size: 15px;
+				margin-bottom: 2px;
+				font-family: Arial, san-serif;
+			}
+
+			#contact-form input, #contact-form select, #contact-form textarea {
+	width: auto;
+	background: #fff;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	padding: 5px;
+			}
+
+			#contact-form input:focus, #contact-form select:focus, #contact-form textarea:focus {
+				background-color: #E5E6E7;
+			}
+
+			#contact-form textarea {
+				height: 150px;
+			}
+
+			#contact-form #submit {
+				width: 450px;
+				color: #BFD7C1;
+				border: none;
+				background-color: #17A12B;
+			}
+
+			#contact-form #submit:hover {
+				background-color: #BFD7C1;
+				color: #6EA070;
+			}
+
+			input:required, textarea:required {
+				box-shadow: none;
+				-moz-box-shadow: none;
+				-webkit-box-shadow: none;
+				-o-box-shadow: none;
+			}
+
+			#contact-form .required {
+				font-weight: bold;
+				font-size: 1.3em;
+				color: #F52C4A;
+			}
+
+			#failure, #success {
+				color: #6EA070;
+				display: none;
+			}
+
+			#bgg{
+	position: relative;
+	top: 0%;
+	left: 38%;
+	width: 24%;
+	height: 0%;
+	background-color: #FFFFFF;
+			}
+			
+/* Estilo para menu secundario  */
+
+#estiloMenu{
+    /*Bordes redondeados
+    -webkit-border-radius:10px;/*Para chrome y Safari*/
+    /*-moz-border-radius:10px;Para Firefox*/
+    /*-o-border-radius:10px;Para Opera*/
+    /*border-radius:10px;El estandar por defecto*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(#D9D9D9));/*Para chrome y Safari*/
+    /*Degradados*/
+    background-image: -moz-linear-gradient(top center, #D9D9D9, #D9D9D9);/*Para Firefox*/
+    background-image: -o-linear-gradient(top, #D9D9D9, #D9D9D9);/*Para Opera*/
+    background-image: linear-gradient(top, #D9D9D9, #D9D9D9);/*El estandar por defecto*/
+    overflow:hidden;
+    height: 100%;
+    
+    
+}
+
+#estiloMenu ul{
+	list-style: none;
+	margin:0 10px 1 10px;
+	padding: 0;
+}
+#estiloMenu ul li{
+	 /*Bordes redondeados*/
+    -webkit-border-radius:5px;/*Chrome y Safari*/
+    -moz-border-radius:5px;/*Firefox*/
+    -o-border-radius:5px;/*Opera*/
+    border-radius:5px;/*Estandar por defecto*/
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:1px;
+    margin-top: 10px;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #FFF;
+}
+#estiloMenu ul li:hover{
+    /*Degradado de fondo*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F6F6F6), to(#BBBBBB));/*Chrome y Safari*/
+    background-image: -moz-linear-gradient(top center, #F6F6F6, #BBBBBB);/*Firefox*/
+    background-image: -o-linear-gradient(top, #F6F6F6, #BBBBBB);/*Opera*/
+    background-image: linear-gradient(top, #F6F6F6, #BBBBBB);/*Estandar por defecto*/
+    /*Sombras*/
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+    -moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+    -o-box-shadow:  1px -1px 0px #999;/*Opera*/
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border:1px solid #E3E3E3;
+}
+#estiloMenu ul li a{
+	text-align: left;
+    color:black;
+    display:block;
+    padding:1px;
+    text-decoration:none;
+    /*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}
+
+
+/*estilo login*/
+
+	#log-sub{
+	position: relative;
+	width: 100%;
+	border-radius: 20px 0px 0 0;
+      }
+
+      #log-left{
+	position: relative;
+	padding: 0px;
+	float: left;
+	width: 80%;
+	border-radius: 20px 0px 0 0;
+      }
+
+      #log-right{
+            position: relative;
+            background-position: center center;
+            display: block;
+            float: right;
+            height: 31px;
+            width: 40%;
+      }
+
+      @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+#login {
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+      line-height: 0.02em
+      margin: 20px auto;
+	position: relative;
+	background-position: center center;
+	display: block;
+	float: right;
+	height: 100%;
+	width: 20%;
+	visibility: inherit;
+
+}
+
+#login h2 {
+      font-family: "Varela Round", Arial, Helvetica, sans-serif;
+      background-color: #65D325;
+      -webkit-border-radius: 0px 20px 0 0;
+      -moz-border-radius: 0px 20px 0 0;
+      border-radius: 0px 20px 0 0;
+      color: #fff;
+      font-size: 18px;
+      padding: 2% 10%;
+      height: 11%;
+      box-shadow: 3px 3px 4px #111;
+}
+
+#login h2 span[class*="fontawesome-"] {
+      margin-right: 10%
+}
+
+#login fieldset {
+      background-color: #fff;
+      -webkit-border-radius: 0 0 20px 20px;
+      -moz-border-radius: 0 0 20px 20px;
+      border-radius: 0 0 0px 0px;
+      padding: 2% 10%;
+      height: 81%;
+      box-shadow: 3px 3px 4px #111;
+      border: 0px;
+}
+
+#login fieldset p {
+      color: #777;
+      margin-bottom: 1%;
+      height: 20%
+      top 2%;
+}
+
+#login fieldset p:last-child {
+      margin-bottom: 0;
+}
+
+#login fieldset input {
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+}
+
+#login fieldset input[type="text"], #login fieldset input[type="password"], #login select [name="menu"]
+{
+      background-color: #fff;
+      color: #777;
+      padding: 2% 10%;
+      width: 100%;
+      font-size: 12px;
+}
+
+.SelectStyle 
+{
+	width: 220px;
+	position: relative;
+}
+
+#Select
+{
+	width: 100%;	
+	color: #585757;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 100%;
+	border-radius: 0;
+	height: 20px;
+	-webkit-appearance: none;
+}
+
+option 
+{
+	padding: 10px;
+}
+
+#login fieldset input[type="submit"] {
+      background-color: #65D325;
+      color: #fff;
+      display: block;
+      padding: 2% 2%;
+      width: 50%;
+      font-size: 9px;
+}
+
+#login fieldset input[type="submit"]:hover {
+      background-color: #28ad63;
+}                  
+
+#l-f-left{
+      position: relative;
+      float: right;
+      width: 50%;
+      margin: 1px -50px 0px 0px;
+}
+#l-f-right{
+      position: relative;
+      font-size: 9px;
+      top: 4%;
+      margin: 4px 0px 0px 0px;
+ 
+}
+
+ #l-f-center{
+      position: relative;
+      float: left;
+      font-size: 9px;
+      margin: 7px 23px 0px 0px;
+
+}
+
+/*final estilo login*/
